@@ -1,5 +1,5 @@
-import { defineContentConfig, defineCollection } from '@nuxt/content'
-
+// import { defineContentConfig, defineCollection } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 export default defineContentConfig({
   collections: {
     content: defineCollection({
@@ -8,7 +8,10 @@ export default defineContentConfig({
     }),
     gonggao: defineCollection({
       type: 'page',
-      source: 'gonggao/*.md'
+      source: 'gonggao/*.md',
+      schema: z.object({
+        date: z.string().transform((str) => new Date(str))
+      })
     })
   }
 })
