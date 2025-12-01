@@ -1,3 +1,5 @@
 <template>
-    公务员课程
+    <div>
+        公务员课程
+    </div>
 </template>

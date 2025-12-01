@@ -10,7 +10,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'gonggao/*.md',
       schema: z.object({
-        date: z.string().transform((str) => new Date(str))
+        date: z.string()
       })
     })
   }
