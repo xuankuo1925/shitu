@@ -5,6 +5,10 @@ export default defineContentConfig({
     content: defineCollection({
       type: 'page',
       source: '**/*.md'
+    }),
+    gonggao: defineCollection({
+      type: 'page',
+      source: 'gonggao/*.md'
     })
   }
 })

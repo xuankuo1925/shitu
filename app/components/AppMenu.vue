@@ -29,19 +29,20 @@
       <el-menu-item index="/ziliao/yjs">研究生资料</el-menu-item>
     </el-sub-menu>
 
-    <el-menu-item index="/about">
-      <el-icon>
-        <InfoFilled />
-      </el-icon>
-      <span>关于我们</span>
-    </el-menu-item>
+
     <el-menu-item index="/gonggao">
       <el-icon>
         <AlarmClock />
       </el-icon>
       <span>公告资讯</span>
     </el-menu-item>
-
+    
+    <el-menu-item index="/about">
+      <el-icon>
+        <InfoFilled />
+      </el-icon>
+      <span>关于我们</span>
+    </el-menu-item>
 
   </el-menu>
 </template>
