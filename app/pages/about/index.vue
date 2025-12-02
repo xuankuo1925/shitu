@@ -1,4 +1,3 @@
-<client-only /> 
 <template>
   <div class="about-page">
     <!-- Header -->
@@ -56,7 +55,15 @@
 useSeoMeta({
   title: '关于仕途 - 简约专业的考公学习平台',
   description: '仕途是一个专注于公务员和事业单位考试的学习平台，提供专业的课程资源和纯净的学习体验。',
-  keywords: '考公,公务员考试,事业单位考试,学习平台,仕途'
+  keywords: '考公,公务员考试,事业单位考试,学习平台,仕途',
+  ogTitle: '关于仕途 - 简约专业的考公学习平台',
+  ogDescription: '了解仕途的理念与使命，发现一个专注于公务员和事业单位考试的纯净学习平台。',
+  ogType: 'website',
+  ogImage: '/favicon.ico',
+  ogUrl: 'https://www.shitu.cc/about',
+  twitterCard: 'summary',
+  robots: 'index, follow'
+
 })
 </script>
 
