@@ -1,3 +1,4 @@
+<client-only /> 
 <template>
   <div class="about-page">
     <!-- Header -->
