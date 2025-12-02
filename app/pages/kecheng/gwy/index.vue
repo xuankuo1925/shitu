@@ -415,8 +415,8 @@ onMounted(() => {
   margin-bottom: 8px;
   line-height: 1.4;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  --webkit-line-clamp: 2;
+  --webkit-box-orient: vertical;
   overflow: hidden;
 }
 
@@ -426,7 +426,7 @@ onMounted(() => {
   line-height: 1.5;
   margin-bottom: 16px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  --webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   flex: 1;
