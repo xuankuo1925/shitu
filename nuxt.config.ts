@@ -1,9 +1,9 @@
 export default defineNuxtConfig({
   nitro: {
     prerender: {
-      // routes: ["/gonggao", "/gonggao/11", "/about"],
+      routes: ["/gonggao", "/gonggao/11","/gonggao/shangxian","/gonggao/gg","/about"],
       crawlLinks: true,
-      routes: ["/sitemap.xml", "/robots.txt"],
+      // routes: ["/sitemap.xml", "/robots.txt"],
     },
   },
   compatibilityDate: "2025-07-15",
