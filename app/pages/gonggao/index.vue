@@ -27,6 +27,10 @@
 
 <script setup lang="ts">
 import { Calendar } from '@element-plus/icons-vue'
+// import { useAsyncData, defineRouteRules } from ''
+
+
+
 const { data: docs } = await useAsyncData('documents-list', () => {
     return queryCollection('gonggao')
         .select('title', 'path', 'description', 'date')
